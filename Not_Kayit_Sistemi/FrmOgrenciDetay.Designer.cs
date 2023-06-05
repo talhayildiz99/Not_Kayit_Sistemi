@@ -189,7 +189,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(272, 376);
+            this.ClientSize = new System.Drawing.Size(326, 376);
             this.Controls.Add(this.LblDurum);
             this.Controls.Add(this.LblOratalama);
             this.Controls.Add(this.LblSinav2);
@@ -208,7 +208,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmOgrenciDetay";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Öğrenci Not Kayıt Sistemi";
+            this.Load += new System.EventHandler(this.FrmOgrenciDetay_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
